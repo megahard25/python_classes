@@ -1,5 +1,5 @@
 import pygame
-from pygame.locals import *
+import pygame.locals
 import sys
 import os
 import math
