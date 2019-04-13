@@ -1,11 +1,11 @@
 import pygame
-from pygame.locals import *
+import pygame.locals
 import sys
 import os
 
-#принимает нажатия любых клавиш
+# Принимает нажатия любых клавиш
 def events():
     for event in pygame.event.get():
-        if event.type == QUIT:
+        if event.type == pygame.QUIT:
             pygame.quit()
             sys.exit()

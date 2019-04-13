@@ -1,10 +1,10 @@
 import pygame
-from pygame.locals import *
+import pygame.locals
 import sys
 import os
 import config
 
-#создание окна игры
+# Создание окна игры
 screen = pygame.display.set_mode(config.window_size)
 def create_window():
     os.environ['SDL_VIDEO_WINDOW_POS'] = "50,50"
